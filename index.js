@@ -14,7 +14,7 @@ app.use(cors())
 
 //---------------- Rotas -----------------
 app.post('/paciente', pacienteController.cadastrar)
-app.post('/paciente', pacienteController.listar)
+app.get('/pacientes', pacienteController.listar)
 
 app.get('/',(req,res)=>{
     res.status(200).json({mensagem: 'Aplicação rodando!'})
