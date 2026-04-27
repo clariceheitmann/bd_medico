@@ -1,0 +1,19 @@
+{
+  "name": "prog_bd_03",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Clarice",
+  "license": "MIT",
+  "description": "Sistema do Médico",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "mysql2": "^3.22.2",
+    "sequelize": "^6.37.8"
+  }
+}
