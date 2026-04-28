@@ -1,0 +1,42 @@
+.principal_tabela{
+    display: flex;
+    flex-direction: column;
+}
+
+.tabela{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+table, th, td{
+    border: solid, 1px, white;     
+    border-collapse: collapse;
+    color: white;
+    padding: 4px 4px;
+    font-size: 1.2rem;
+}
+
+th{
+    font-weight: bolder;
+}
+
+th, td{
+    color: white;
+    padding: 4px 4px;
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input,button{
+    background-color:rgb(36, 9, 36);
+    color: white;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 8px 16px;
+    width: 200px;
+    border-radius: 12px;
+}
